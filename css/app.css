@@ -1,4 +1,27 @@
-h1 {
-    font-size: 5rem;
-    color: green;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.name-site span {
+  color: #037bc0;
+}
+
+.navegation {
+  background-color: #e1e1e1;
+}
+.navegation a {
+  text-transform: uppercase;
+}
+
+/* Box Model */
+.about-us {
+  background-color: red;
+  width: 200px;
+  padding: 25px;
+  box-sizing: border-box;
 }
