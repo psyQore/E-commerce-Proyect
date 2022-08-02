@@ -7,26 +7,39 @@ html {
   box-sizing: inherit;
 }
 
+/* Globales */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header y Navegacion */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .name-site {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .name-site span {
   color: #037bc0;
 }
-
-.navegation {
-  background-color: #e1e1e1;
-}
-.navegation a {
-  text-transform: uppercase;
+.container-nav {
+  border-top: 1px solid #e1e1e1;
 }
 
-/* Box Model */
+.nav-main {
+  padding: 20px 0;
+}
 
-.about-us {
-  background-color: red;
-  width: 200px;
-  padding: 25px;
+.hero {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
 }
