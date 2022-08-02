@@ -7,6 +7,11 @@ html {
   box-sizing: inherit;
 }
 
+.name-site {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .name-site span {
   color: #037bc0;
 }
@@ -19,9 +24,9 @@ html {
 }
 
 /* Box Model */
+
 .about-us {
   background-color: red;
   width: 200px;
   padding: 25px;
-  box-sizing: border-box;
 }
