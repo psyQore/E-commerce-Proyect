@@ -35,6 +35,8 @@ a {
 
 .nav-main {
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero {
@@ -42,4 +44,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
+}
+
+/* Categoria */
+.list-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
