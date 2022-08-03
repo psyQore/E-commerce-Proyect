@@ -42,6 +42,11 @@ img {
   max-width: 100%;
   display: block;
 }
+/* Utilidades */
+.text-center {
+  text-align: center;
+}
+
 /* Header y Navegacion */
 .name-site {
   margin-top: 5rem;
@@ -73,9 +78,7 @@ img {
 .categories {
   padding-top: 5rem;
 }
-.categories h2 {
-  text-align: center;
-}
+
 .category a {
   text-align: center;
   display: block;
@@ -115,7 +118,34 @@ img {
   column-gap: 8rem;
 }
 .text-about {
-  grid-column: 2 / 3;
   color: #fff;
+  grid-column: 2 / 3;
+
+}
+.container-main {
+  padding-top: 5rem;
+}
+.product {
+  background-color: #037bc0;
+}
+.text-product {
+  text-align: center;
+  color: #fff;
+
+}
+.text-product h3 {
+  margin: 0;
+}
+.text-product p {
+  margin: 0 0 .5rem 0;
+}
+.text-product .price { 
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.text-product a {
+
+}
+.list-products {
 
 }
