@@ -107,4 +107,15 @@ img {
   padding: 10rem 0;
   background-repeat: no-repeat;
   background-size: 100%, 120rem;
+  margin-top: 4rem;
+}
+.about-us-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8rem;
+}
+.text-about {
+  grid-column: 2 / 3;
+  color: #fff;
+
 }
