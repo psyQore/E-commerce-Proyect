@@ -139,9 +139,22 @@ img {
 }
 .product:nth-child(1) {
   grid-column: 1 / 7;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.product:nth-child(1) img {
+  height: 43rem;
+  width: 100%;
+  object-fit: cover;
 }
 .product:nth-child(2) {
   grid-column: 1 / 4;
+}
+.product:nth-child(2) img,
+.product:nth-child(3) img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
 }
 .product:nth-child(3) {
   grid-column: 4 / 7;
