@@ -254,3 +254,7 @@ img {
 .entry-meta span {
   color: #037bc0;
 }
+.content-entry-blog {
+  width: 60rem;
+  margin: 0 auto;
+}
