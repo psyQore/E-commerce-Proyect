@@ -38,19 +38,66 @@
           <legend>Tus Datos</legend>
           <div class="field">
             <label for="name">Nombre:</label>
-            <input id="name""" type="text" placeholder="Tu Completo"/>
+            <input id="name" type="text" placeholder="Tu Completo" required/>
           </div>
           <div class="field">
             <label for="subject">Asunto:</label>
-            <input id="subject""" type="text" placeholder="Tu Asunto"/>
+            <input id="subject" type="text" placeholder="Tu Asunto" required/>
+          </div>
+          <div class="field">
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Tu Email" />
+          </div>
+          <div class="field">
+            <label for="phone">Telfono:</label>
+            <input id="phone" type="tel" placeholder="Tu Telefono" />
+          </div>
+          <div class="field">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" rows="20" cols="10"></textarea>
           </div>
         </fieldset>
         <fieldset>
           <legend>Pais</legend>
+          <div class="field">
+            <label for="country">Pais:</label>
+            <select id="country">
+              <option>-- Seleccione --</option>
+              <option value="chile">Chile</option>
+              <option value="argentina">Argentina</option>
+              <option value="mexico">Mexico</option>
+              <option value="brasil">Brasil</option>
+            </select>
+          </div>
         </fieldset>
         <fieldset>
           <legend>Información Extra</legend>
+
+          <div class="field">
+            <label for="client">Cliente:</label>
+            <input id="client" type="radio" name="type"/>
+          </div>
+
+          <div class="field">
+            <label for="supplier">Proveedor:</label>
+            <input id="supplier" type="radio" name="type" />
+          </div>
+
+          <div class="campo">
+            <label for="category">Categoría de Interés</label>
+            <input list="category" name="category" />
+            <datalist id="category""">
+              <option value="Cocina"/>
+              <option value="Exterior"/>
+              <option value="Recamaras"/>
+              <option value="Oficinas"/>
+              <option value="Televisión"/>
+            </datalist>
+
+          </div>
+
         </fieldset>
+        <input type="submit" value="Enviar Formulario">
       </form>
     </main>
 
