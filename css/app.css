@@ -17,7 +17,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
-  margin: 0 0 5rem 0;
+  margin: 0 0 2rem 0;
 }
 h1 {
   font-size: 4rem;
@@ -158,26 +158,50 @@ img {
 /*bout Us*/
 .about-us {
   background-image: linear-gradient(
-      to right,
+      to bottom,
       transparent 50%,
       #037bc0 50%,
       #037bc0 100%
     ),
     url(../img/nosotros.jpg);
-  background-position: left center;
-  padding: 10rem 0;
+  background-position: center, top left;
   background-repeat: no-repeat;
-  background-size: 100%, 120rem;
-  margin-top: 4rem;
+  background-size: 100%, 70rem;
+}
+@media (min-width: 768px) {
+  .about-us {
+    background-image: linear-gradient(
+        to right,
+        transparent 50%,
+        #037bc0 50%,
+        #037bc0 100%
+      ),
+      url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-size: 100%, 160rem;
+  }
 }
 .about-us-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 8rem;
+  grid-template-rows: repeat(2, 1fr);
+}
+@media (min-width: 768px) {
+  .about-us-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: unset;
+    column-gap: 10rem;
+  }
 }
 .text-about {
+  grid-row: 2 / 3;
   color: #fff;
-  grid-column: 2 / 3;
+  padding: 5rem;
+}
+@media (min-width: 768px) {
+  .text-about {
+    grid-column: 2 / 3;
+  }
 }
 .container-main {
   padding-top: 5rem;
