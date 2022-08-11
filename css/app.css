@@ -122,14 +122,24 @@ img {
 }
 /* Categoria */
 .categories {
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
-
+.category {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .category {
+    margin-bottom: 0;
+  }
+}
 .category a {
   text-align: center;
   display: block;
   padding: 2rem;
   font-size: 2rem;
+}
+.category img {
+  width: 100%;
 }
 .category a:hover {
   background-color: #037bc0;
@@ -137,13 +147,15 @@ img {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-.list-category {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+@media (min-width: 768px) {
+  .list-category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }
 
-/*Bloque About Us*/
+/*bout Us*/
 .about-us {
   background-image: linear-gradient(
       to right,
