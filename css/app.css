@@ -328,6 +328,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 5rem;
+}
+@media (min-width: 768px) {
+  .information {
+    padding: 0;
+  }
 }
 /* Blog */
 .content-blog {
