@@ -101,7 +101,6 @@ img {
 .container-nav {
   border-top: 1px solid #e1e1e1;
 }
-/* media queries nav principal */
 .nav-main {
   padding: 2rem 0;
   display: flex;
@@ -114,7 +113,6 @@ img {
     flex-direction: row;
   }
 }
-/* media queries hero */
 .hero {
   background-image: url(../img/principal.jpg);
   background-repeat: no-repeat;
@@ -162,7 +160,7 @@ img {
   }
 }
 
-/*bout Us*/
+/* About */
 .about-us {
   background-image: linear-gradient(
       to bottom,
